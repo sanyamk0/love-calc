@@ -1,0 +1,64 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.03)),
+    url("./assets/LoveBG.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+header {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  border: 3px solid black;
+  width: 35%;
+  margin: auto;
+}
+
+.card-header {
+  border: 2px solid black;
+  background-color: red;
+  height: 3rem;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 3rem;
+}
+
+.card-body {
+  /* border: 2px solid black; */
+  text-align: center;
+}
+
+/* #form-group {
+    border: 2px solid red;
+} */
+
+.btn {
+  border-radius: 0.4rem;
+  height: 2rem;
+  width: 10rem;
+}
+
+input {
+  text-align: center;
+  height: 2rem;
+  border-radius: 0.4rem;
+  width: 12rem;
+}
+
+.card-footer {
+  border: 2px solid black;
+  background-color: papayawhip;
+  height: 3rem;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 3rem;
+}
